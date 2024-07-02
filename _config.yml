@@ -28,10 +28,7 @@ description: 'This is my new website'
 permalink: pretty
 repo: 'https://github.com/dpatino00/dpatino00.github.io'
 
-# Pagination
-paginate: 5
-paginate_path: blog/page:num
-
+##### NAVIGATION #####
 # Header nav
 navigation_header:
 - title: Home
@@ -40,6 +37,8 @@ navigation_header:
   url: /blog/
 - title: Resume
   url: /resume/
+- title: Search
+  url: /search/
 - title: About Me
   url: /about/
 
@@ -52,11 +51,18 @@ navigation_footer:
 - title: Back to top
   url: "#top"
 
+#### SOCIAL MEDIA LINKS ####
 # Social media links
 social_links:
 - title: LinkedIn
   url: "https://www.linkedin.com/in/daniel-patino-a0a7461bb/"
 
+sharing_links:
+  LinkedIn: "#0077b5"
+  X (Twitter): "#0d94e7"
+  email: True
+
+#### Collections ####
 # Collections
 collections:
   posts:
@@ -80,7 +86,11 @@ defaults:
     values:
       layout: page # Set the default layout for pages
 
-# Quiet warning: awaiting release of new gem version
+# Pagination for blog
+paginate: 5
+paginate_path: blog/page:num
+
+# sass settings; quiet_deps: true will suppress warnings about missing dependencies
 sass:
   quiet_deps: true
   style: compressed

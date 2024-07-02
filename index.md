@@ -6,4 +6,4 @@ feature_text: |
 feature_image: /images/bluffton.jpg
 ---
 
-There isn't much going on here yet, but watch this space
+Hey everyone! 
