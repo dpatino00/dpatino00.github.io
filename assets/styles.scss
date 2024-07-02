@@ -1,0 +1,43 @@
+---
+title: false
+styles: true
+---
+// Custom header styles
+.header {
+    background-color: #384743; // Custom background color for the header
+    color: #fff; // Custom text color for the header
+
+    .nav-link {
+        color: #fff; // Custom link color in the header
+        &:hover {
+            color: lighten(#fff, 10%); // Custom link hover color
+        }
+    }
+}
+
+.nav--header {
+    display: flex;
+    justify-content: flex-end; /* Aligns the navigation bar to the right */
+    align-items: center;
+    width: 100%;
+  }
+
+// typing effect
+.typing-effect {
+    white-space: pre;
+    overflow: hidden;
+    border-right: 0.15em solid #000; /* Cursor */
+    animation: blink-caret 0.75s step-end infinite;
+    font-size: 1.5em;
+  }
+  
+@keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+  }
+  
+@import "alembic";
