@@ -1,0 +1,10 @@
+{% for project in site.data.resume.projects %}
+<div class="project-block section-block">
+  <h3>{{ project.title }}</h3>
+  <ul>
+    {% for detail in project.details %}
+    <li>{{ detail }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

@@ -17,7 +17,7 @@ styles: true
 
 .nav--header {
     display: flex;
-    justify-content: flex-end; /* Aligns the navigation bar to the right */
+    justify-content: flex-end;
     align-items: center;
     width: 100%;
   }
@@ -26,7 +26,7 @@ styles: true
 .typing-effect {
     white-space: pre;
     overflow: hidden;
-    border-right: 0.15em solid #000; /* Cursor */
+    border-right: 0.15em solid #000;
     animation: blink-caret 0.75s step-end infinite;
     font-size: 1.5em;
   }
@@ -39,5 +39,16 @@ styles: true
       border-color: black;
     }
   }
-  
+
+// Indent bulleted lists
+.article.article--page ul {
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
+// Full width pages
+.article.article--page {
+  width: 80%;       
+  padding: 0px;
+}
 @import "alembic";

@@ -1,0 +1,11 @@
+{% for job in site.data.resume.experience %}
+<div class="experience-block section-block">
+  <h3>{{ job.company }}, {{ job.title }}, {{ job.location }}</h3>
+  <p>{{ job.date }}</p>
+  <ul>
+    {% for duty in job.duties %}
+    <li>{{ duty }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

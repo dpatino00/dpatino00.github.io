@@ -1,0 +1,11 @@
+{% for research in site.data.resume.research %}
+<div class="research-block section-block">
+  <h3>{{ research.institution }}, {{ research.department }}</h3>
+  <p>{{ research.date }}</p>
+  <ul>
+    {% for duty in research.duties %}
+    <li>{{ duty }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

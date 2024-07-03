@@ -1,0 +1,8 @@
+<div class="skills-block section-block">
+    <ul>
+      {% for skill in site.data.resume.skills %}
+      <li><strong>{{ skill.category }}:</strong> {{ skill.items }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  

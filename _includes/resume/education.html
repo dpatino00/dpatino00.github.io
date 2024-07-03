@@ -1,0 +1,10 @@
+{% for education in site.data.resume.education %}
+<div class="education-block section-block">
+  <h3>{{ education.institution }}</h3>
+  <p><em>{{ education.degree }}</em><br>
+  <strong>GPA</strong>: {{ education.gpa }}<br>
+  {{ education.date }}<br>
+  <br>
+  {{ education.details | newline_to_br }}</p>
+</div>
+{% endfor %}
