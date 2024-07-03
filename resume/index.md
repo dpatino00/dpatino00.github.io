@@ -26,7 +26,7 @@ permalink: /resume/
 }
 
 .experience-block {
-  background-color: #f5f5f5; /* Light grey background */
+  background-color: #B0E0E6; /* Light grey background */
 }
 
 .project-block {
