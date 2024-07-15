@@ -1,0 +1,11 @@
+- title: Genome and Transcriptome Analysis of <em>Salmonella Enterica</em>*
+  description: > 
+    Designed a reproducible pipeline that assembled a genome from DNA-seq reads, assembled a de novo transcriptome from RNA-seq reads, 
+    annotated the transcriptome, and predicted protein function using the KEGG database.
+  link: https://github.com/dpatino00/patino-projects/tree/main/bioinformatics_pipeline
+
+- title: QSAR Model to Predict Aquatic Toxicity - Modeling and Evaluation *
+  description: >
+    Employed gradient boosting, kNN with bagging, and RPART machine learning techniques to predict LC50 toxicity towards Daphnia magna, 
+    with a focus on minimizing mean absolute error through fine-tuning.
+  link: https://github.com/dpatino00/patino-projects/tree/main/qsar_MachineLearning
