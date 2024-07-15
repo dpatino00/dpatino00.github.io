@@ -21,6 +21,3 @@ the life sciences field.
 - Share personal projects that highlight my skills and interests :computer:
 - Blog about topics that peak my interest :bulb:
 - Share educational snippets to spread knowledge and reinforce my own understanding :books:
-
-
-
