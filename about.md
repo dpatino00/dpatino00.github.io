@@ -7,8 +7,9 @@ permalink: /about/
 {% include figure.html image="/images/bio_pic.jpg" position="left" width="300" height="1000" %}
 
 <style>
-.article--page.content.typeset {
+.article--page.content.typeset p{
     font-size: 18px;
+    height: auto;
 }
 </style>
 
