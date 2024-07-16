@@ -9,7 +9,25 @@ permalink: /about/
 <style>
 .article--page.content.typeset p{
     font-size: 18px;
-    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .article--page.content.typeset {
+        display: block;
+    }
+
+    .article--page.content.typeset .figure {
+        width: 100% !important;
+        height: auto !important;
+        float: none !important;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+
+    .article--page.content.typeset p {
+        margin-top: 20px;
+    }
 }
 </style>
 
