@@ -70,7 +70,7 @@ permalink: /resume/
   <a href="#technical-skills">Technical Skills</a>
   <a href="#professional-experience">Professional Experience</a>
   <a href="#academic-projects">Academic Projects</a>
-  <a href="#research-experience">Research Experience</a>
+  <a href="#research">Research</a>
 </div>
 <div class="section-separator"></div>
 
@@ -98,6 +98,6 @@ permalink: /resume/
 
 <div class="section-separator"></div>
 
-## Research Experience
+## Research
 
 {% include resume/research.html %}
