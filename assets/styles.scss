@@ -51,4 +51,14 @@ styles: true
   width: 90%;       
   padding: 0px;
 }
+
+// Full width pages for blog posts
+.article.article--post {
+  width: 85%;       
+  padding: 0px;
+}
+// Change text size for blog post content
+.article.article--post p {
+  font-size: 1em;
+}
 @import "alembic";
