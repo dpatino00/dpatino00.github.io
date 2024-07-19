@@ -4,8 +4,8 @@ education:
     gpa: 4.00
     date: May 2024
     details: |
-      Graduate Ambassador: Represented the College of Science at information sessions and Q&A panels
-      Relevant Coursework: Bioinformatics Programming, Statistics for Bioinformatics, Machine Learning
+      <strong>Graduate Ambassador</strong>: Represented the College of Science at information sessions and Q&A panels
+      <strong>Relevant Coursework</strong>: Bioinformatics Programming, Statistics for Bioinformatics, Machine Learning
   - institution: Wake Forest University, Winston-Salem, NC
     degree: Bachelor of Science in Chemistry
     gpa: 3.72
@@ -13,16 +13,16 @@ education:
     details: |
       <strong>Concentration</strong>: Medicinal Chemistry
       <strong>Minors</strong>: Mathematics, Biology
-      Magnolia Scholar: Merit scholarship awarded to first-generation scholars
-      International Study: Neuroscience Program - Universidad de Salamanca, Spain
+      <strong>Magnolia Scholar</strong>: Merit scholarship awarded to first-generation scholars
+      <strong>International Study</strong>: Neuroscience Program - Universidad de Salamanca, Spain
 
 skills:
   - category: Programming and Version Control
     items: Python, R, SQL, Bash; Git, GitHub
   - category: Machine Learning
-    items: Unsupervised (K-means, PCA), Supervised (Multiple Linear Regression, Decision Trees)
-  - category: Bioinformatics Tools
-    items: BioPython, BioConductor, BLAST, SAMtools, Trinity, Clustal Omega
+    items: PCA, decision trees, random forest, gradient boosting, and multiple linear regression
+  - category: Bioinformatics and Data Analysis
+    items: BioPython, BioConductor, BLAST, Trinity, GATK, DESeq2, pandas, Tableau
   - category: Certifications
     items: Tableau Desktop Foundations, Six Sigma Yellow Belt, Carnegie Mellon University - AI Academy
 
@@ -32,21 +32,21 @@ experience:
     location: Cambridge, MA
     date: January 2024 – June 2024
     duties:
-      - Designed a parser that converts raw laboratory logs into CSV formats for nodes and edges, enabling graph-based modeling of automated lab processes on AWS Neptune
-      - Built a prototype AI product that translates natural language into Gremlin graph query language, enhancing retrieval of information for non-technical users
-      - Instituted an evaluation framework to continually assess and enhance AI prototype performance
+      - Designed a parser that converts Lynx logs into structured CSV formats for AWS Neptune, facilitating graph-based modeling 
+      - Built a prototype AI product that translates natural language into Gremlin graph query language, enhancing retrieval of information for a team of over 10 non-technical users
+      - Created an evaluation framework to continually assess and enhance AI prototype performance
       - Implemented a graph alignment algorithm for graph-to-table normalization to highlight differences in similar subgraphs, allowing scientists to draw insights from variations in lab processes
   - company: Moderna
     title: Chemistry - Quality Control Associate II
     location: Norwood, MA
     date: July 2021 – Present
     duties:
-      - Contributed to implementation and design of digital LES Worksheets on LIMS and conduct User Acceptance Testing for transfer of data from Chromeleon to LES Worksheets
+      - Contributed to implementation and design of digital LES Worksheets on LIMS and conducted User Acceptance Testing for transfer of data from Chromeleon to LES Worksheets
       - Developed a Tableau dashboard that tracks key performance metrics (deviations/laboratory events)
       - Analyzed chromatography using Chromeleon to quantify mRNA and lipid concentrations and identify impurities
       - Supported QC Compliance with data integrity gap assessments on Chromeleon and SoftMax Pro software
       - Performed analytical tests on release, IPC, and stability samples in alignment to cGMP guidelines
-      - Collaborated with AS&T and PD to transfer methods across sites and optimize assays
+      - Collaborated with AS&T and PD to transfer methods across sites and optimize experimental procedures
 
 projects:
   - title: Quantitative Structure-Activity Relationship (QSAR) - Modeling and Ensemble Evaluation
