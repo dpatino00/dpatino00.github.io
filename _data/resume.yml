@@ -28,6 +28,14 @@ skills:
 
 experience:
   - company: Moderna
+    title: Data Science and AI Research Associate
+    location: Cambridge, MA
+    date: July 2024 - Present
+    duties:
+      - Continue to support DSAI Research half-time while working in QC Chemistry
+      - Validate data integrity and quality of data in AWS Neptune, ensuring data accurately reflects lab processes
+      - Develop a panel app for interactive visualization and analysis of process graphs, improving comprehension both for data scientists and lab scientists
+  - company: Moderna
     title: Data Science and AI Research Co-op
     location: Cambridge, MA
     date: January 2024 – June 2024
@@ -41,12 +49,13 @@ experience:
     location: Norwood, MA
     date: July 2021 – Present
     duties:
-      - Contributed to implementation and design of digital LES Worksheets on LIMS and conducted User Acceptance Testing for transfer of data from Chromeleon to LES Worksheets
-      - Developed a Tableau dashboard that tracks key performance metrics (deviations/laboratory events)
-      - Analyzed chromatography using Chromeleon to quantify mRNA and lipid concentrations and identify impurities
-      - Supported QC Compliance with data integrity gap assessments on Chromeleon and SoftMax Pro software
-      - Performed analytical tests on release, IPC, and stability samples in alignment to cGMP guidelines
-      - Collaborated with AS&T and PD to transfer methods across sites and optimize experimental procedures
+      - Develop custom GPT solutions integrated with Smartsheet to automate repetitive tasks and streamline communication within the Quality organization, reducing hours spent on manual data entry
+      - Create a Tableau dashboard that tracks key performance metrics for each department across the Quality organization(deviations/laboratory events)
+      - Contribute to implementation and design of digital LES Worksheets on LIMS and conducted User Acceptance Testing for transfer of data from Chromeleon to LES Worksheets
+      - Analyze chromatography using Chromeleon to quantify mRNA and lipid concentrations and identify impurities
+      - Support QC Compliance with data integrity gap assessments on Chromeleon and SoftMax Pro software
+      - Perform analytical tests on release, IPC, and stability samples in alignment to cGMP guidelines
+      - Collaborate with AS&T and PD to transfer methods across sites and optimize experimental procedures
 
 projects:
   - title: Quantitative Structure-Activity Relationship (QSAR) - Modeling and Ensemble Evaluation
