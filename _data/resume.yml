@@ -40,10 +40,10 @@ experience:
     location: Cambridge, MA
     date: January 2024 – June 2024
     duties:
-      - Designed a parser that converts Lynx logs into structured CSV formats for AWS Neptune, facilitating graph-based modeling 
-      - Built a prototype AI product that translates natural language into Gremlin graph query language, enhancing retrieval of information for a team of over 10 non-technical users
-      - Created an evaluation framework to continually assess and enhance AI prototype performance
-      - Implemented a graph alignment algorithm for graph-to-table normalization to highlight differences in similar subgraphs, allowing scientists to draw insights from variations in lab processes
+      - Continue to support DSAI Research half-time after completion of co-op role in June
+      - Develop an interactive panel app for visualization and analysis of process graphs, enhancing comprehension for both data scientists and lab scientists
+      - Build a prototype AI tool to translate natural language into Gremlin graph query language, making AWS Neptune graph database more accessible to a team of 15 non-technical users.
+      - Implement a graph alignment algorithm and an evaluation framework, optimizing AI performance and enabling actionable insights from variations in lab processes
   - company: Moderna
     title: Chemistry - Quality Control Associate II
     location: Norwood, MA
