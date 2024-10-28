@@ -69,6 +69,13 @@ projects:
 research:
   - institution: Wake Forest University
     department: Department of Chemistry
+    location: Winston-Salem, NC
+    date: January 2020 - May 2020
+    duties:
+      - Monitoried multi-step sythesis of fluroscent coumarins for mitochondria-targeted probes through HPLC, NMR, and TLC plate analysis
+  - institution: Wake Forest University
+    department: Department of Chemistry (Lab course)
+    location: Winston-Salem, NC
     date: August 2020 – December 2020
     duties:
       - Synthesized and purified an SN-38 prodrug, utilizing 1H NMR to confirm molecular structure
