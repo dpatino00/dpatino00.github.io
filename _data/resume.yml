@@ -42,7 +42,7 @@ experience:
     duties:
       - Continue to support DSAI Research half-time after completion of co-op role in June
       - Develop an interactive panel app for visualization and analysis of process graphs, enhancing comprehension for both data scientists and lab scientists
-      - Build a prototype AI tool to translate natural language into Gremlin graph query language, making AWS Neptune graph database more accessible to a team of 15 non-technical users.
+      - Build a prototype AI tool to translate natural language into Gremlin graph query language, making AWS Neptune graph database more accessible to a team of over 10 non-technical users.
       - Implement a graph alignment algorithm and an evaluation framework, optimizing AI performance and enabling actionable insights from variations in lab processes
   - company: Moderna
     title: Chemistry - Quality Control Associate II
