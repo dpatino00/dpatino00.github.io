@@ -60,7 +60,7 @@ experience:
 projects:
   - title: Quantitative Structure-Activity Relationship (QSAR) - Modeling and Ensemble Evaluation
     details:
-      - Employed gradient boosting, kNN with bagging, and RPART machine learning techniques to predict LC50 toxicity towards Daphnia magna, with a focus on minimizing mean absolute error through fine-tuning
+      - Employed gradient boosting, kNN with bagging, and RPART machine learning techniques to predict LC50 toxicity towards Daphnia magna, with a focus on minimizing mean absolute error
       - Developed and assessed an ensemble model using k-fold cross-validation to enhance predictive performance
   - title: Genome and Transcriptome Analysis of Salmonella enterica
     details:
