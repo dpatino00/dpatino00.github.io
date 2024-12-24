@@ -15,8 +15,6 @@ I pursued a Master of Science in Bioinformatics from Northeastern University alo
 
 The overall objective of my project was to leverage LLMs for robust translation of natural language to graph query language. The result of my project was an LLM workflow that simplifies data access for lab scientists, enabling them to query information from a graph database in natural language. In addition to breaking down this technical barrier, I prototyped a graph-to-table normalization algorithm to detect variations across queried subgraphs. This enhancement allows for scientists to draw insights more quickly. The end-to-end product takes a user query as an input, translates it into graph query language, and generates a dashboard for a more detailed analysis of the queried subgraphs.
 
-In a later blog post, I will break this down into more detail!
-
 ## Challenges
 
 Juggling two job functions and full-time classes was my biggest challenge. Prior to this experience, I was balancing full-time QC work with my studies, which was a shock the first couple months of my program. Despite the initial struggle, I was able to adapt and significantly improve my time management skills. This led me to believe handling two part-time roles with classes would not be much different. 
