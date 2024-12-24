@@ -23,12 +23,23 @@ permalink: /projects/
 }
 
 /* Card customizations */
-.project-card h3 {
+.project-card a h3 {
   margin: 10px;
   font-size: 1.2em;
-  text-decoration: underline;
+  color: #666;
   transition: color 0.3s ease;
 }
+
+.project-card a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card a:hover h3 {
+  color: #007BFF;
+  text-decoration: underline;
+}
+
 .project-card p {
   margin: 10px;
   color: #666;
@@ -50,14 +61,16 @@ permalink: /projects/
   transition: color 0.3s ease;
 }
 .project-card:hover .github-icon {
-  color: #007BFF; /* Change color when hovering over card */
+  color: #007BFF;
 }
 </style>
 
 <div class="projects-grid">
   {% for project in site.data.projects %}
   <div class="project-card">
-    <h3>{{ project.title }}</h3>
+    <a href="{{ project.link }}">
+      <h3>{{ project.title }}</h3>
+    </a>
     <p>{{ project.description }}</p>
     <a href="{{ project.link }}" class="github-icon">
         {% include icon.html id="github" title="GitHub" %}
@@ -66,4 +79,4 @@ permalink: /projects/
   {% endfor %}
 </div>
 
-\* Project was completed as part of Northeastern University coursework. Please request collaborator access. 
+\* Project was completed as part of Northeastern University coursework. Please request collaborator access.
